@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Past Works</title> 
+    
+	<link href="css/bootstrap.css" rel="stylesheet">
+	 
+	<link href="css/main.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/favicon.png">
+	<script src="js/pace.js"></script>
+ 
+    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+</head>
+    
+<body>
+    
+    <main id="top" role="main">
+        <section class="section-title">
+            <h2>Current Clients</h2>
+            <h4>Lexington Community Education</h4>
+        </section>
+        <section class="section-title">
+            <h2>Past Clients</h2>
+            <h4><a href="angelperformingarts.com">Angel Performing Arts - School of Dance</a></h4>
+        </section>
+        
+        
+    </main> <! --/main -->
+    
+    
+    
+    
+    <div class="container">
+			<section class="row breath">
+				<div class="col-md-12 footerlinks">
+					<p>Contact at
+                     <a href="vitaedevelopment@gmail.com">vitaedevelopment@gmail.com</a></p>
+				</div>
+			</section><! --/section -->
+    </div><! --/container -->
+    
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/easing.js"></script>
+<!-- <script src="js/nicescroll.js"></script> -->
+ 
+ 
+<script>
+
+
+ $(function() {
+    $('.scrollto, .gototop').bind('click',function(event){
+		 var $anchor = $(this);
+		 $('html, body').stop().animate({
+         scrollTop: $($anchor.attr('href')).offset().top
+          }, 1500,'easeInOutExpo');
+     event.preventDefault();
+      });
+  });
+        
+
+</script>
+</body>
+</html>
