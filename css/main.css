@@ -11,11 +11,6 @@
 
 @charset "utf-8";
 
-#nav{
-    position:fixed;
-    height: 10%;
-    width:25%;
-}
 
 body{
 	font-family:'Open Sans',Arial,sans-serif;
