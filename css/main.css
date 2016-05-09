@@ -107,7 +107,7 @@ a:hover,a:focus{color:#5173bd;}
 
 .highlight{background:#f4f4f4;margin-top:40px;}
 
-.masthead{
+header#top{
 	position:relative;
 	padding:14.5vh 25px;
 	color:#FFF;
@@ -124,7 +124,7 @@ a:hover,a:focus{color:#5173bd;}
 	background-size:cover;
 	}
 
-.masthead .container{
+header#top section{
 	animation:fadein 2s;
 	-moz-animation:fadein 2s;
 	-webkit-animation:fadein 2s;
@@ -302,15 +302,18 @@ to {
 }
 /*========== 3. HERO IMAGE ==============*/
 
-.section-title {
+section{
+  padding: 5% 15% 10% 15%;
+}
+section header {
 	text-align:center;
 	margin-top:60px;
 	margin-bottom:30px;
 }
-.section-title h2 {
+section header h2 {
 	color:#384047;
 }
-.section-title h4 {
+section header h4 {
 	color:#94a3a8;
 }
 .heroimg img, .clientlogo img {
@@ -529,26 +532,25 @@ font-size: 35px;
 margin: 10px auto;
 }
 }
- @media (max-width: 767px) {
- h1 {
-font-size: 30px;
-line-height: 40px;
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .subscribe [class*="col-"]:not(:first-child) {
+    margin-top: 30px;
+  }
+  header#top {
+    padding: 40px 15px;
+  }
 }
- h2 {
-font-size: 30px;
-line-height: 40px;
-}
- .subscribe [class*="col-"]:not(:first-child) {
- margin-top: 30px;
-}
- .masthead {
-padding: 40px 15px;
-}
-}
- @media (max-width: 480px) {
-	 /*Media Queries for smaller devices*/
-	 .masthead {
-	background-attachment: scroll;
-}
-
+@media (max-width: 480px) {
+  /*Media Queries for smaller devices*/
+  main {
+    background-attachment: scroll;
+  }
 }
