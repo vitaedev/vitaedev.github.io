@@ -1,80 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="VitaeDev - Bringing Life to the Web">
-  <meta name="author" content="https://github.com/vitaedev/vitaedev.github.io/graphs/contributors">
-  <title>VitaeDev - Bringing Life to the Web</title>
-  
-  <link href="../css/bootstrap.css" rel="stylesheet">
-  <link href="../css/main.css" rel="stylesheet">
-  <link rel="../shortcut icon" href="images/favicon.png">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
-</head>
+---
+layout: person
+title: Steve
+---
 
-<body>
-  <div class="preloader"></div>
-  
-  <header id="top">
-    <div class="container">
-      <div class="logo">
-        <img src="../images/logo.png" alt="VitaeDev Logo" style="width:30vw"/>
-      </div>
-      
-      <h2 style="font-weight:normal;">
-        <strong>Steve's</strong> page
-      </h2>
-      
-      <a href="#explore" rel="" id="anchor1" class="scrollto">
-        EXPLORE<br><br>
-        <span class="scrollto--arrow"><img src="../images/scroll_down.png" alt="scroll down arrow"></span>
-      </a>
-    </div>
-  </header>
-  
-  <main id="explore">
-    <header>
-      <h2>About Me</h2>
-      <h4>text and pictures and stuff</h4>
-    </header>
-    
-    <section> 
-      <h3>Do whatever you want</h3>
-      <p>Change this page however you want to, it's yours!</p>
-      <p>Override text / add pictures / completely replace it with another page / whatever.</p>
-    </section>
-   
-    <section>
-      <h3>Make it cool</h3>
-      <p>Games and animations are A+.</p>
-      <p>Just don't do anything obviously illegal or anything. thx.</p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>
-      Get in touch at
-      <a href="mailto:contact@vitaedev.com" style="color: #ccc;">contact@vitaedev.com</a>
-    </p>
-  </footer>
-  
-  <script src="../js/pace.js"></script>
-  <script src="../js/jquery.js"></script>
-  <script src="../js/bootstrap.js"></script>
-  <script src="../js/easing.js"></script>
-  <!-- <script src="js/nicescroll.js"></script> -->
-  
-  <script>
-  $(function() {
-    $('.scrollto, .gototop').bind('click',function(event){
-      var $anchor = $(this);
-      $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top
-      }, 1000,'easeOutExpo');
-      event.preventDefault();
-    });
-  });
-  </script>
-</body>
-</html>
+<header>
+  <h2>About Me</h2>
+  <h4>text and pictures and stuff</h4>
+</header>
+
+<section> 
+  <h3>Do whatever you want</h3>
+  <p>Change this page however you want to, it's yours!</p>
+  <p>Override text / add pictures / completely replace it with another page / whatever.</p>
+</section>
+
+<section>
+  <h3>Make it cool</h3>
+  <p>Games and animations are A+.</p>
+  <p>Just don't do anything obviously illegal or anything. thx.</p>
+</section>
