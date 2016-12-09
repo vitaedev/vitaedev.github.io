@@ -338,3 +338,80 @@ footer {
     background-attachment: scroll;
   }
 }
+
+/*----------ANIMATIONS--------*/
+#hugo {
+  -webkit-animation-duration: 1.4s;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-duration: 1.4s;
+  -moz-animation-delay: 0.1s;
+  -o-animation-duration: 1.4s;
+  -o-animation-delay: 0.1s;
+  -ms-animation-duration: 1.4s;
+  -ms-animation-delay: 0.1s;
+}
+
+#dyusha {
+  -webkit-animation-duration: 1.4s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-duration: 1.4s;
+  -moz-animation-delay: 0.3s;
+  -o-animation-duration: 1.4s;
+  -o-animation-delay: 0.3s;
+  -ms-animation-duration: 1.4s;
+  -ms-animation-delay: 0.3s;
+}
+
+#steve {
+  -webkit-animation-duration: 1.4s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-duration: 1.4s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-duration: 1.4s;
+  -o-animation-delay: 0.5s;
+  -ms-animation-duration: 1.4s;
+  -ms-animation-delay: 0.5s;
+}
+
+/*----------TEAM CSS----------*/
+.team
+{
+  margin-bottom:0px;
+  background:#FFF;
+  padding:0 !important;
+  font-size: 30px;
+}
+
+.teamheader
+{
+  padding-top: 25px;
+  color: #2EE87C;
+  text-align: center;
+}
+
+.avatar
+{
+  border:0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.propic:hover
+{
+  -webkit-filter: grayscale(0%)!important;
+  filter: grayscale(0%)!important;
+}
+
+.desaturate
+{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+.titles
+{
+  font-size:45px;
+  color:#2EE87C;
+  font-weight: 700;
+}

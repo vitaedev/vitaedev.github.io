@@ -11,9 +11,12 @@
   <link href="css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.png">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+  <link href="css/mdb.min.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body onload="hideImages()">
   <div class="preloader"></div>
   
   <header id="top">
@@ -51,6 +54,60 @@
       <p>Our team is passionate about our community and wishes to support any all community-oriented organizations in the Greater Boston Area, free of charge.</p>
       <p>If you aren't a community organization, contact us anyway, and we'll discuss your project and agree on a reasonable price.</p>
     </section>
+
+    <section class = "team">
+      <div class="container">
+        <h2 class = "teamheader titles">Meet the Team</h2>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate">
+          <img src="images/betsy_propic.png" alt="Betsy Pu" class="img-circle center-block avatar img-responsive wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Betsy Pu<br>Founder, Developer</p>
+        </div>
+        </div>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate">
+          <img src="images/clive_propic.png" alt="Clive Chan" class="img-circle center-block avatar img-responsive wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Clive Chan<br>Founder, Backend Developer</p>
+        </div>
+        </div>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate">
+          <img src="images/nathaniel_propic.png" alt="Nathaniel Tan" class="img-circle center-block avatar img-responsive wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Nathaniel Tan<br>Founder</p>
+        </div>
+        </div>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate">
+          <img src="images/eula_propic.png" alt="Eula Zhong" class="img-circle center-block avatar img-responsive wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Eula Zhong<br>Founder</p>
+        </div>
+        </div>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate" id = "donotshow">
+          <img src="images/hugo_propic.png" alt="Hugo Zhang" class="img-circle center-block avatar img-responsive animated fadeInUp" id = "hugo" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Hugo Zhang<br>Developer</p>
+        </div>
+        </div>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate" id = "donotshow1">
+          <img src="images/dyusha_propic.png" alt="Dyusha Gritsevskiy" class="img-circle center-block avatar animated img-responsive fadeInUp" id = "dyusha" data-wow-delay="0.3s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Dyusha Gritsevskiy<br>Developer</p>
+        </div>
+        </div>
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate" id = "donotshow2">
+          <img src="images/steve_propic.png" alt="Steve Li" class="img-circle center-block avatar animated img-responsive fadeInUp" id = "steve" data-wow-delay="0.5s" data-wow-duration="1.4s">
+          <div class="mask flex-center">
+          <p class="white-text">Steve Li<br>Developer</p>
+        </div>
+        </div>
+      </div>
+      <container>
+        <div class = "text-center">
+          <a class="btn btn-success btn-lg gototop" id = "show" onclick = "showImages()">See All</a> 
+        </div>
+      </container>
+    </section>
+
   </main>
   
   <footer>
@@ -62,12 +119,51 @@
       <a href="mailto:contact@vitaedev.com" style="color: #ccc;">contact@vitaedev.com</a>
     </p>
   </footer>
+
+  <script>
+  function hideImages() {
+      document.getElementById('donotshow').style.display = "none";
+      document.getElementById('donotshow1').style.display = "none";
+      document.getElementById('donotshow2').style.display = "none";
+  }
+  </script>
   
+  <script>
+  function showImages() {
+    if (document.getElementById('show').text == "See All")
+    {
+      document.getElementById('donotshow').style.display = "inline";
+        document.getElementById('donotshow1').style.display = "inline";
+        document.getElementById('donotshow2').style.display = "inline";
+        document.getElementById('show').text = "Hide"
+    }
+    else if (document.getElementById('show').text == "Hide")
+    {
+      document.getElementById('donotshow').style.display = "none";
+        document.getElementById('donotshow1').style.display = "none";
+        document.getElementById('donotshow2').style.display = "none";
+        document.getElementById('show').text = "See All"
+
+    }
+
+      
+  }
+  </script>
   <script src="js/pace.js"></script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/easing.js"></script>
   <!-- <script src="js/nicescroll.js"></script> -->
+   <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/tether.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  
+  <!--ANIMATIONS ON SCROLL -->
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
   
   <script>
   $(function() {
