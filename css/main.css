@@ -385,7 +385,7 @@ footer {
 
 .teamheader
 {
-  color: #2EE87C;
+  color: #00C851;
   text-align: center;
 }
 
@@ -412,21 +412,21 @@ footer {
 .titles
 {
   font-size:45px;
-  color:#2EE87C;
-  font-weight: 700;
+  color:#7F7F7F;
+  font-weight: 200;
 }
 
 /*------------WORKS------------*/
 .pastworks
 {
-  background-color: #2EE87C;
+  /*background-color:#00C851;*/
   margin-bottom: 0px !important;
 }
 
 .photoheader
 {
   padding: 25px;
-  color: #FFF;
+  color: #7F7F7F;
   text-align: center;
 
 }
@@ -471,7 +471,13 @@ footer {
     -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
-
+.photoline{
+  border-width: 3px;
+  border-color: #0080ff;
+  width: 100%;
+  padding: 0px;
+  
+}
 
 /*keyframe animations*/
 .first {
