@@ -262,8 +262,12 @@ header#top section{
   -o-animation: arrowbounce 1s alternate infinite; /* Opera */
 }
 
-
-header, section{
+.text{
+  overflow:auto;
+  float: left; 
+  width: 200px;
+}
+/*header, section{
   padding: 2% 10%;
   text-align: center;
 }
@@ -272,7 +276,7 @@ section header h2 {
 }
 section header h4 {
   color:#94a3a8;
-}
+}*/
 
 
 footer {
@@ -331,12 +335,36 @@ footer {
   header#top {
     padding: 40px 15px;
   }
+
+  
 }
 @media (max-width: 480px) {
   /*Media Queries for smaller devices*/
   main {
     background-attachment: scroll;
   }
+}
+@media (min-width: 1200px) {
+    .description{
+        max-width: 60%;
+    }
+}
+
+
+/*----------Description--------*/
+.descripHeader{
+  margin-top:;
+  color: #293133;
+
+}
+.descrip{
+
+  color: #768286;
+  margin-bottom: 20px;
+}
+.thumbnail{
+  margin-top: 100px;
+  border: none !important;
 }
 
 /*----------ANIMATIONS--------*/
@@ -385,7 +413,7 @@ footer {
 
 .teamheader
 {
-  color: #00C851;
+  color: #6b7e84;
   text-align: center;
 }
 
@@ -411,8 +439,9 @@ footer {
 
 .titles
 {
-  font-size:45px;
-  color:#7F7F7F;
+
+  font-size:30px;
+  color:#6b7e84;
   font-weight: 200;
 }
 
@@ -425,8 +454,9 @@ footer {
 
 .photoheader
 {
-  padding: 25px;
-  color: #7F7F7F;
+  margin-top: 100px;
+  padding: 0px;
+  color: #6b7e84;
   text-align: center;
 
 }
@@ -472,9 +502,9 @@ footer {
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 .photoline{
-  border-width: 3px;
+  border-width: 2px;
   border-color: #0080ff;
-  width: 100%;
+  width: 20%;
   padding: 0px;
   
 }

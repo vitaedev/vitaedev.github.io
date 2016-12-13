@@ -2387,6 +2387,7 @@ input[type="button"].btn-block {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  color: #49565a;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4625,6 +4626,7 @@ a.thumbnail.active {
 .list-group-item > .badge {
   float: right;
 }
+
 .list-group-item > .badge + .badge {
   margin-right: 5px;
 }
