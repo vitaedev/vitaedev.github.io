@@ -346,7 +346,7 @@ footer {
 }
 @media (min-width: 1200px) {
     .description{
-        max-width: 60%;
+        max-width: 70%;
     }
 }
 
@@ -363,7 +363,8 @@ footer {
   margin-bottom: 20px;
 }
 .thumbnail{
-  margin-top: 100px;
+  margin-top: 60px;
+  padding: 50px;
   border: none !important;
 }
 
