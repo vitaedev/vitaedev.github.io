@@ -19,31 +19,32 @@
 
 <body onload="hideImages()" data-spy = "scroll" data-target = "navbar">
   <div id = "navbar">
-  <nav class="navbar navbar-default navbar-fixed-top">  <div class="container-fluid">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#top">VITAEDEV</a>
-  </div>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">  <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top">VITAEDEV</a>
+      </div>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-      <li><a href="#explore">About</a></li>
-      <!--<li class="active"><a href="#explore">About <span class="sr-only">(current)</span></a></li>-->
-      <li><a href="#pastWork">Past Work</a></li>
-      <li><a href="#members">Members</a></li>
-      
-    </ul>
-    
-  </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#explore">About</a></li>
+          <!--<li class="active"><a href="#explore">About <span class="sr-only">(current)</span></a></li>-->
+          <li><a href="#pastWork">Past Work</a></li>
+          <li><a href="#members">Members</a></li>
+
+
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
   <div class="preloader"></div>
   
   <header id="top">
@@ -63,9 +64,9 @@
       </a>
     </div>
   </div>
-  </header>
-  
-  
+</header>
+
+
   <!--<main id="explore">
     <section class = "text">
       <h2>What is VitaeDev?</h2>
@@ -165,19 +166,19 @@
           </div>
         </div>
         <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate" >
-          <img src="images/hugo_propic.png" alt="Hugo Zhang" class="img-circle center-block avatar img-responsive wow fadeInUp" id = "hugo" data-wow-delay="0.7s" data-wow-duration="1.4s">
+          <img src="images/hugo_propic.png" alt="Hugo Zhang" class="img-circle center-block avatar img-responsive wow fadeInUp" id = "hugo" data-wow-delay="0.9s" data-wow-duration="1.4s">
           <div class="mask flex-center">
             <p class="white-text">Hugo Zhang<br>Developer</p>
           </div>
         </div>
         <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate" >
-          <img src="images/dyusha_propic.png" alt="Dyusha Gritsevskiy" class="img-circle center-block avatar img-responsive wow fadeInUp" id = "dyusha" data-wow-delay="0.7s" data-wow-duration="1.4s">
+          <img src="images/dyusha_propic.png" alt="Dyusha Gritsevskiy" class="img-circle center-block avatar img-responsive wow fadeInUp" id = "dyusha" data-wow-delay="1.1s" data-wow-duration="1.4s">
           <div class="mask flex-center">
             <p class="white-text">Dyusha Gritsevskiy<br>Developer</p>
           </div>
         </div>
-        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate" id = "donotshow2">
-          <img src="images/steve_propic.png" alt="Steve Li"class="img-circle center-block avatar img-responsive wow fadeInUp" id = "steve" data-wow-delay="0.7s" data-wow-duration="1.4s">
+        <div class = "propic col-lg-3 col-md-3 col-sm-6 col-xs-12 img-circle view overlay hm-zoom desaturate">
+          <img src="images/steve_propic.png" alt="Steve Li"class="img-circle center-block avatar img-responsive wow fadeInUp" id = "steve" data-wow-delay="1.3" data-wow-duration="1.4s">
           <div class="mask flex-center">
             <p class="white-text">Steve Li<br>Developer</p>
           </div>
@@ -259,8 +260,8 @@
 
   $('body').scrollspy({ target: '#navbar' })
   $('[data-spy="scroll"]').each(function () {
-  var $spy = $(this).scrollspy('refresh')
-  $("#navbar a").on('click', function(event) {
+    var $spy = $(this).scrollspy('refresh')
+    $("#navbar a").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
@@ -278,13 +279,13 @@
     }, 600, function(){
 
     // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-    });
+    window.location.hash = hash;
+  });
 
   } // End if
 
 });
-})
+  })
   </script>
 </body>
 </html>
