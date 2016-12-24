@@ -13,11 +13,12 @@ body{
 	height:100%;
 	margin:0;
 	padding:0;
+  padding-top: 50px;
 	color:#94a3a8;
 
   position: relative;
   overflow-y: hidden;
-	}
+}
 
 
 a{color:#5173bd;}
@@ -360,7 +361,12 @@ footer {
     .description{
         max-width: 70%;
     }
+    .learning{
+      max-width: 90%;
+    }
+
 }
+
 
 
 /*----------Description--------*/
@@ -370,16 +376,15 @@ footer {
 
 }
 .descrip{
-
   color: #768286;
   margin-bottom: 20px;
 }
 .thumbnail{
   margin-top: 60px;
-  padding: 50px;
+  padding: 30px;
   border: none !important;
 }
-
+.
 /*----------ANIMATIONS--------*/
 #hugo {
   -webkit-animation-duration: 1.4s;
@@ -457,19 +462,68 @@ footer {
   color:#6b7e84;
   font-weight: 200;
 }
+/*----------LEARNINGPAGES----------*/ 
 
+.learningHeader{
+  /*text-align: center;*/
+  background-color: #293133 !important; 
+  min-height: 400px;
+  padding-top: 50px !important;
+
+}
+.inner h1{
+  margin-left: 6px;
+}
+.inner p{
+  margin-left: 6px;
+}
+.links li{
+  text-align: left;
+  list-style-type: circle !important;
+}
+.frontEnd{
+  padding-left: 50px;
+  margin-bottom: 5px;
+  color: #293133;
+}
+
+.learningthumbnail{
+  margin-top: 5px;
+  padding: 30px;
+  border: none !important;
+}
+#bar{
+  margin: auto;
+}
+.learningdescripHeader{
+  text-align: left;
+  margin-top:;
+  color: #293133;
+
+}
+.learningdescrip{
+  text-align: left;
+  color: #768286;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.glyph{
+  margin-right: 15px;
+}
 /*------------WORKS------------*/
 .pastworks
 {
   /*background-color:#00C851;*/
   margin-bottom: 0px !important;
+  background: #293133;
 }
 
 .photoheader
 {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0px;
-  color: #6b7e84;
+  color: #ffffff;
   text-align: center;
 
 }
