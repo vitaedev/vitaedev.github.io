@@ -486,7 +486,10 @@ footer {
   margin-bottom: 5px;
   color: #293133;
 }
-
+.frontEnd h1{
+  padding-top: 60px; 
+  margin-top: -40px;
+}
 .learningthumbnail{
   margin-top: 5px;
   padding: 30px;

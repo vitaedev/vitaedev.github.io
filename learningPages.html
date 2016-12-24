@@ -34,10 +34,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#explore">Front End</a></li>
+          <li><a href="#frontEndHeader">Front End</a></li>
           <!--<li class="active"><a href="#explore">About <span class="sr-only">(current)</span></a></li>-->
-          <li><a href="#pastWork">Back End</a></li>
-          <li><a href="#members">Misc.</a></li>
+          <li><a href="#backEndHeader">Back End</a></li>
+          <li><a href="#miscHeader">Misc.</a></li>
      
 
 
@@ -75,8 +75,8 @@
 
       </div>
       
-      <div class="page-header frontEnd">
-        <h1>Front End <small>Languages for visuals</small></h1>
+      <div id="frontEndHeader" class="page-header frontEnd">
+        <h1 >Front End <small>Languages for visuals</small></h1>
       </div>
 
 
@@ -144,8 +144,8 @@
 
         </div>
       </div>
-      <div class="page-header frontEnd">
-        <h1>Back End <small>Server-side Languages</small></h1>
+      <div id = "backEndHeader" class="page-header frontEnd">
+        <h1 >Back End <small>Server-side Languages</small></h1>
       </div>
       <div id= "backEnd" class = "container learning">
         <div class="row">
@@ -212,10 +212,10 @@
         </div>
       </div>
 
-      <div class="page-header frontEnd">
-        <h1>Miscellaneous <small>Helpful Tools for Web Development</small></h1>
+      <div id = "miscHeader" class="page-header frontEnd">
+        <h1 >Miscellaneous <small>Helpful Tools for Web Development</small></h1>
       </div>
-      <div id= "backEnd" class = "container learning">
+      <div id= "misc" class = "container learning">
         <div class="row">
           <div class="col-xs-6 col-md-4 text-center learningthumbnail">
             <div class="single_service wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: .5s; animation-name: fadeInUp;">
@@ -314,7 +314,7 @@
   new WOW().init();
   </script>
   
-  <script>
+   <script>
   $(function() {
     $('.scrollto, .gototop').bind('click',function(event){
       var $anchor = $(this);
