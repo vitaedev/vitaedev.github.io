@@ -427,6 +427,7 @@ footer {
   background:#FFF;
   padding:0 !important;
   font-size: 30px;
+  width: 100%;
 }
 
 .teamheader
@@ -440,8 +441,21 @@ footer {
   border:0px;
   margin-top: 25px;
   margin-bottom: 25px;
+  float: left;
 }
 
+/*.memberImage{
+  float: left;
+}*/
+.propic p{
+  color: black;
+}
+.propic{
+  text-align: right !important;
+}
+.memberText{
+  float: right !important;
+}
 .propic:hover
 {
   -webkit-filter: grayscale(0%)!important;
