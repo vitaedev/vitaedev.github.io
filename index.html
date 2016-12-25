@@ -140,7 +140,8 @@
         <a href = "http://new.lexingtoncommunityed.org/"><img src="images/lexplorations.png"></a>
       </div>
     </div>
-    <section class = "team" id = "members">
+
+    <!--<section class = "team" id = "members">
       <div class="container">
         <h2 class = "teamheader titles">MEMBERS</h2>
         <h1> Founding Team </h1>
@@ -189,12 +190,8 @@
           </div>
         </div>
       </div>
-      <container>
-        <!--<div class = "text-center">
-          <a class="btn btn-success btn-lg gototop" id = "show" onclick = "showImages()">See All</a> 
-        </div> -->
-      </container>
-    </section>
+      
+    </section> -->
 
     
 
@@ -291,6 +288,31 @@
 
 });
   })
+
+  (function ($) {
+  $(document).ready(function(){
+    
+  // hide .navbar first
+  if ( $(window).width() > 739) {      
+ 
+  $(".navbar").hide();
+  
+  // fade in .navbar
+  $(function () {
+    $(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+      if ($(this).scrollTop() > 800) {
+        $('.navbar').fadeIn();
+      } else {
+        $('.navbar').fadeOut();
+      }
+    });
+
+  
+  });
+}
+});
+  }(jQuery));
   </script>
 </body>
 </html>

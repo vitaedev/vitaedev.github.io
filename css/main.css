@@ -13,8 +13,8 @@ body{
 	height:100%;
 	margin:0;
 	padding:0;
-  padding-top: 50px;
-	color:#94a3a8;
+/*  padding-top: 50px;
+*/	color:#94a3a8;
 
   position: relative;
   overflow-y: hidden;
@@ -450,12 +450,12 @@ footer {
 .propic p{
   color: black;
 }
-.propic{
+/*.propic{
   text-align: right !important;
-}
-.memberText{
+}*/
+/*.memberText{
   float: right !important;
-}
+}*/
 .propic:hover
 {
   -webkit-filter: grayscale(0%)!important;
