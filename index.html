@@ -47,7 +47,7 @@
     </div><!-- /.container-fluid -->
   </nav>
   <div class="preloader"></div>
-  
+
   <header id="top">
     <div class="container">
       <div class="logo">
@@ -288,28 +288,45 @@
   } // End if
 
 });
-  })
+  });   
 
   (function ($) {
-  $(document).ready(function(){
-    
+    $(document).ready(function(){
+
   // hide .navbar first
-  if ( $(window).width() > 739) {      
+  if ( $(window).width() > 1000) {      
+
+    $(".navbar").hide();
+
+  // fade in .navbar
+  $(function () {
+    $(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+            if ($(this).scrollTop() > 730) {
+              $('.navbar').fadeIn();
+            } else {
+              $('.navbar').fadeOut();
+            }
+          });
+  });
+}
+
  
+else {
   $(".navbar").hide();
   
   // fade in .navbar
   $(function () {
     $(window).scroll(function () {
             // set distance user needs to scroll before we fadeIn navbar
-      if ($(this).scrollTop() > 800) {
-        $('.navbar').fadeIn();
-      } else {
-        $('.navbar').fadeOut();
-      }
-    });
+            if ($(this).scrollTop() > 300) {
+              $('.navbar').fadeIn();
+            } else {
+              $('.navbar').fadeOut();
+            }
+          });
 
-  
+
   });
 }
 });
