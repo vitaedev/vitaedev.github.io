@@ -476,13 +476,49 @@ footer {
   color:#6b7e84;
   font-weight: 200;
 }
+/*----------contactus--------*/
+.contactHeader{
+  text-align: center;
+  color:#293133 ;
+}
+.headerline{
+  border-width: 1px;
+  border-color: #293133;
+  width: 40%;
+  padding: 0px;
+}
+.contact{
+  text-align: center;
+  color: #768286;
+}
+
+.contactText{
+
+ width: 500px;
+ margin: 0 auto;
+}
+/*----------Navbar stuff----------*/
+.navbar .brand{
+  margin-left:+100px !important;
+  margin-right:-100px !important; 
+}
+.navbar .navbar-right{
+  margin-right: 100px !important;
+}
+.navbar {min-height: 80px;}
+.navbar-brand {padding: 0 15px; height: 80px; line-height: 80px;}
+@media (min-width: 768px){}
+.navbar-nav > li > a {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
 /*----------LEARNINGPAGES----------*/ 
 
 .learningHeader{
   /*text-align: center;*/
   background-color: #293133 !important; 
   min-height: 400px;
-  padding-top: 50px !important;
+  padding-top: 80px !important;
 
 }
 .inner h1{
@@ -501,8 +537,8 @@ footer {
   color: #293133;
 }
 .frontEnd h1{
-  padding-top: 60px; 
-  margin-top: -40px;
+  padding-top: 100px; 
+  margin-top: -80px;
 }
 .learningthumbnail{
   margin-top: 5px;
