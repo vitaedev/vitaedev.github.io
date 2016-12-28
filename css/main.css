@@ -382,6 +382,7 @@ footer {
 }
 .thumbnail{
   margin-top: 60px;
+  margin-bottom: 0px;
   padding: 30px;
   border: none !important;
 }
@@ -567,9 +568,9 @@ footer {
 /*------------WORKS------------*/
 .pastworks
 {
-  /*background-color:#00C851;*/
+  background-color:#293133;
   margin-bottom: 0px !important;
-  background: #293133;
+  /*color: #293133;*/
 }
 
 .photoheader
