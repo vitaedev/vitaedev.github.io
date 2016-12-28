@@ -501,6 +501,7 @@ footer {
 }
 /*----------Navbar stuff----------*/
 .navbar .brand{
+  font-family:Caviar;
   margin-left:+100px !important;
   margin-right:-100px !important; 
 }
