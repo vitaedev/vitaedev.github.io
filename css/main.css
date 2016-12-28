@@ -359,7 +359,7 @@ footer {
 }
 @media (min-width: 1200px) {
     .description{
-        max-width: 70%;
+        max-width: 80%;
     }
     .learning{
       max-width: 90%;
@@ -373,11 +373,12 @@ footer {
 .descripHeader{
   margin-top:;
   color: #293133;
-
+  font-size:200%;
 }
 .descrip{
   color: #768286;
   margin-bottom: 20px;
+  font-size:120%;
 }
 .thumbnail{
   margin-top: 60px;
