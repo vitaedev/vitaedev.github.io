@@ -409,6 +409,10 @@ footer {
     .navbar .navbar-right {
         margin-right: 100px !important;
     }
+    .thumbnail{
+            margin-top: 60px;
+
+    }
 }
 
 @media (max-width: 480px) {
@@ -418,6 +422,9 @@ footer {
     }
     .navbar .brand {
         margin-left: +0px !important;
+    }
+    .thumbnail{
+        margin-top: 0px; 
     }
 /*
     .navbar .navbar-right {
@@ -451,7 +458,6 @@ footer {
 }
 
 .thumbnail {
-    margin-top: 60px;
     margin-bottom: 0px;
     padding: 30px;
     border: none !important;
