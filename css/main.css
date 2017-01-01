@@ -638,14 +638,14 @@ footer {
 }
 
 .frontEnd {
-    padding-left: 50px;
+    padding-left: 0px;
     margin-bottom: 5px;
     color: #293133;
 }
 
 .frontEnd h1 {
     padding-top: 100px;
-    margin-top: -80px;
+    margin-top: -40px;
 }
 
 .learningthumbnail {
