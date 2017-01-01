@@ -585,7 +585,9 @@ footer {
 
 
 /*----------Navbar stuff----------*/
-
+.tog{
+    margin-top: 20px !important; 
+}
 .navbar .brand {
     font-family: Caviar;
     margin-right: -100px !important;
@@ -601,8 +603,6 @@ footer {
     line-height: 80px;
 }
 
-@media (min-width: 768px) {}
-
 .navbar-nav > li > a {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
@@ -610,7 +610,10 @@ footer {
 
 
 /*----------LEARNINGPAGES----------*/
-
+.gitHub{
+    float: left; 
+    margin-right: 10px;
+}
 .learningHeader {
     /*text-align: center;*/
     background-color: #293133 !important;
@@ -620,6 +623,9 @@ footer {
 
 .inner h1 {
     margin-left: 6px;
+}
+.inner{
+    padding-top: 20px;
 }
 
 .inner p {

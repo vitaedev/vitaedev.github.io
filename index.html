@@ -1,80 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="VitaeDev - Bringing Life to the Web">
-  <meta name="author" content="https://github.com/vitaedev/vitaedev.github.io/graphs/contributors">
-  <title>VitaeDev - Bringing Life to the Web</title>
-  
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link rel="shortcut icon" href="images/favicon.png">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
-  <link href="css/mdb.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VitaeDev - Bringing Life to the Web">
+    <meta name="author" content="https://github.com/vitaedev/vitaedev.github.io/graphs/contributors">
+    <title>VitaeDev - Bringing Life to the Web</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" /> </head>
 
-  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
-
-
-</head>
-
-
-<body onload="hideImages()" data-spy = "scroll" data-target = "navbar">
-  <div id = "navbar">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">  <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand brand" href="#top" style = "font-size: 200%"><img src="images/logo-small.png" style="height:inherit"/>VITAEDEV</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navRight" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#explore" style = "font-size: 120%">ABOUT</a></li>
-          <!--<li class="active"><a href="#explore">About <span class="sr-only">(current)</span></a></li>-->
-          <li><a href="#pastWork" style = "font-size: 120%">WORK</a></li>
-          <li><a href="#members" style = "font-size: 120%">CONTACT</a></li>
-          <li><a href="learningPages.html" style = "font-size: 120%">LEARN</a></li>
-
-
-        </ul>
-
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  <div class="preloader"></div>
-
-  <header id="top">
-    <div class="container logoHeader">
-      <div class="logo">
-        <img src="images/newlogo.png" alt="VitaeDev Logo" style="width:15vw"/>
-        <br/>
-        <span style="font-size:5em; font-family:'Caviar'">VITAEDEV</span>
-      </div>
-      
-      <h2 style="font-weight:normal; margin-top:0px; margin-bottom:10%;">
+<body data-spy="scroll" data-target="navbar">
+    <div id="navbar">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed tog" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand brand" href="#top" style="font-size: 200%"><img src="images/logo-small.png" style="height:inherit" />VITAEDEV</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navRight" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#explore" style="font-size: 120%">ABOUT</a></li>
+                        <!--<li class="active"><a href="#explore">About <span class="sr-only">(current)</span></a></li>-->
+                        <li><a href="#pastWork" style="font-size: 120%">WORK</a></li>
+                        <li><a href="#members" style="font-size: 120%">CONTACT</a></li>
+                        <li><a href="learningPages.html" style="font-size: 120%">LEARN</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="preloader"></div>
+        <header id="top">
+            <div class="container logoHeader">
+                <div class="logo"> <img src="images/newlogo.png" alt="VitaeDev Logo" style="width:15vw" />
+                    <br/> <span style="font-size:5em; font-family:'Caviar'">VITAEDEV</span> </div>
+                <h2 style="font-weight:normal; margin-top:0px; margin-bottom:10%;">
         Bringing <strong>Life</strong><br>
         to your website.
-      </h2>
-      
-      <a href="#explore" rel="" id="anchor1" class="scrollto">
+      </h2> <a href="#explore" rel="" id="anchor1" class="scrollto">
         EXPLORE<br><br>
         <span class="scrollto--arrow"><img src="images/scroll_down.png" alt="scroll down arrow"></span>
-      </a>
+      </a> </div>
     </div>
-  </div>
-</header>
-
-
-  <!--<main id="explore">
+    </header>
+    <!--<main id="explore">
     <section class = "text">
       <h2>What is VitaeDev?</h2>
       <h4>VitaeDev is a web development team that focuses on community organizations in the Greater Boston Area.</h4>
@@ -86,62 +69,48 @@
       <p>Is your website in need of change, but you don't know what you want? Our team will work alongside you to figure something out.</p>
     </section>
    -->
-
-    <div id="explore" class = "container description" style = "margin-bottom: 0px">
-      <div class="row">
-        <div class="col-xs-12 col-md-4 text-center thumbnail">
-          <div class="single_service wow fadeInUp animated" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
-            <span style = "font-size: 50px" class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-
-            <h2 class = "descripHeader">COMMUNITY</h2>
-            <p class = "descrip">VitaeDev is a web design & development team located in the Greater Boston area dedicated to helping community organizations build modern, appealing websites at <u>no cost</u>.</p>
-          </div>
+    <div id="explore" class="container description" style="margin-bottom: 0px">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 text-center thumbnail">
+                <div class="single_service wow fadeInUp animated" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;"> <span style="font-size: 50px" class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    <h2 class="descripHeader">COMMUNITY</h2>
+                    <p class="descrip">VitaeDev is a web design & development team located in the Greater Boston area dedicated to helping community organizations build modern, appealing websites at <u>no cost</u>.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center thumbnail">
+                <div class="single_service wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"> <span style="font-size: 50px" class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+                    <h2 class="descripHeader">CUSTOM DESIGN</h2>
+                    <p class="descrip">Our websites are hand-crafted to suit your specific tastes & needs, whether that means improving an existing design, backend integration, or building a brand-new site from scratch.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center thumbnail">
+                <div class="single_service wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"> <span style="font-size: 50px" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    <h2 class="descripHeader">EDUCATION</h2>
+                    <p class="descrip">We offer opportunities for students to learn web design from experienced mentors and put their skills into practice. Interested? <a href="#footer">Contact us</a> to join or check out our free online resources <a href="learningpages.html">here</a>.</p>
+                </div>
+            </div>
         </div>
-
-
-        <div class="col-xs-12 col-md-4 text-center thumbnail">
-          <div class="single_service wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-
-            <span style = "font-size: 50px" class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
-            <h2 class = "descripHeader">CUSTOM DESIGN</h2>
-            <p class = "descrip">Our websites are hand-crafted to suit your specific tastes & needs, whether that means improving an existing design, backend integration, or building a brand-new site from scratch.</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-4 text-center thumbnail">
-          <div class="single_service wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-
-            <span style = "font-size: 50px" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-
-            <h2 class = "descripHeader">EDUCATION</h2>
-            <p class = "descrip">We offer opportunities for students to learn web design from experienced mentors and put their skills into practice. Interested? <a href="#footer">Contact us</a> to join or check out our free online resources <a href="learningpages.html">here</a>.</p>
-          </div>
-        </div>
-      </div>
     </div>
-
     <div class="container" style="background: #1e3d4c; text-align:center; margin:0 0 30px 0">
-      <h3 style="color:white">The best part? Local non-profits get our services for <b>free</b>.</h3>
-      <p style="margin:0">In the spirit of supporting our community, we develop for non-profit community organizations in the Greater Boston Area <u>free of charge</u>.</p>
-      <p>Not a non-profit? <a href="#footer" style="color:white">Contact us</a> anyway, and we'll work out an affordable price.</p>
+        <h3 style="color:white">The best part? Local non-profits get our services for <b>free</b>.</h3>
+        <p style="margin:0">In the spirit of supporting our community, we develop for non-profit community organizations in the Greater Boston Area <u>free of charge</u>.</p>
+        <p>Not a non-profit? <a href="#footer" style="color:white">Contact us</a> anyway, and we'll work out an affordable price.</p>
     </div>
-
-
-
-    <div class="container pastworks" id = "pastWork">
-      <h2 class = "photoheader titles">OUR WORK</h2>
-      <!--<hr class = "photoline" >-->
-      <div class="photobanner">
-        <a href="http://www.aceactoncenter.com/"><img class="first overlay red" src="images/ace.png"></a>      
-        <a href="http://www.angelperformingarts.com"><img src="images/angel.png"></a>
-        <a href = "http://vitaedev.com/lhssenate/"><img src="images/lhssenate.png"></a>
-        <a href = "http://new.lexingtoncommunityed.org/"><img src="images/lexplorations.png"></a>
-        <a href="http://www.aceactoncenter.com/"><img src="images/ace.png"></a>
-        <a href="http://www.angelperformingarts.com"><img src="images/angel.png"></a>
-        <a href = "http://vitaedev.com/lhssenate/"><img src="images/lhssenate.png"></a>
-        <a href = "http://new.lexingtoncommunityed.org/"><img src="images/lexplorations.png"></a>
-      </div>
+    <div class="container pastworks" id="pastWork">
+        <h2 class="photoheader titles">OUR WORK</h2>
+        <!--<hr class = "photoline" >-->
+        <div class="photobanner">
+            <a href="http://www.aceactoncenter.com/"><img class="first overlay red" src="images/ace.png"></a>
+            <a href="http://www.angelperformingarts.com"><img src="images/angel.png"></a>
+            <a href="http://vitaedev.com/lhssenate/"><img src="images/lhssenate.png"></a>
+            <a href="http://new.lexingtoncommunityed.org/"><img src="images/lexplorations.png"></a>
+            <a href="http://www.aceactoncenter.com/"><img src="images/ace.png"></a>
+            <a href="http://www.angelperformingarts.com"><img src="images/angel.png"></a>
+            <a href="http://vitaedev.com/lhssenate/"><img src="images/lhssenate.png"></a>
+            <a href="http://new.lexingtoncommunityed.org/"><img src="images/lexplorations.png"></a>
+        </div>
     </div>
-     <!-- <div class = "container contactUs" id = "contact">
+    <!-- <div class = "container contactUs" id = "contact">
             <h2 class = "contactHeader">CONTACT US</h2>
             <p style = "font-size: 150%" class = "contact">Reach out to VitaeDev</p>
             <hr class = "headerline">
@@ -200,150 +169,97 @@
       </div>
       
     </section> -->
-
-    
-
-  </main>
-  
-  <footer id="footer">
-    <h2 class = "contactHeader">CONTACT US</h2>
-    <hr class = "headerline">
-    <div class="contactText">
-      <p style="font-size:130%">
-        We would love to hear from you.<br/>
-        Email us at
-        <a href="mailto:contact@vitaedev.com" style="text-decoration:underline">contact@vitaedev.com</a>
-        and let us know how we can help build your website.
-      </p>
-    </div>
-  </footer>
-
-  <script>
-  function hideImages() {
-    document.getElementById('donotshow').style.display = "none";
-    document.getElementById('donotshow1').style.display = "none";
-    document.getElementById('donotshow2').style.display = "none";
-  }
-  </script>
-  
-  <script>
-  function showImages() {
-    if (document.getElementById('show').text == "See All")
-    {
-      document.getElementById('donotshow').style.display = "inline";
-      document.getElementById('donotshow1').style.display = "inline";
-      document.getElementById('donotshow2').style.display = "inline";
-      document.getElementById('show').text = "Hide"
-    }
-    else if (document.getElementById('show').text == "Hide")
-    {
-      document.getElementById('donotshow').style.display = "none";
-      document.getElementById('donotshow1').style.display = "none";
-      document.getElementById('donotshow2').style.display = "none";
-      document.getElementById('show').text = "See All"
-
-    }
-
-
-  }
-  </script>
-  <script src="js/pace.js"></script>
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/easing.js"></script>
-  <!-- <script src="js/nicescroll.js"></script> -->
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/tether.min.js"></script>
-
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  
-  <!--ANIMATIONS ON SCROLL -->
-  <script type="text/javascript">
-  new WOW().init();
-  </script>
-  
-  <script>
-  $(function() {
-    $('.scrollto, .gototop').bind('click',function(event){
-      var $anchor = $(this);
-      $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top
-      }, 1000,'easeOutExpo');
-      event.preventDefault();
-    });
-  });
-
-  $('body').scrollspy({ target: '#navbar' })
-  $('[data-spy="scroll"]').each(function () {
-    var $spy = $(this).scrollspy('refresh')
-    $("#navbar a").on('click', function(event) {
-
-  // Make sure this.hash has a value before overriding default behavior
-  if (this.hash !== "") {
-
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 600, function(){
-
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    window.location.hash = hash;
-  });
-
-  } // End if
-
-});
-  });   
-
-  (function ($) {
-    $(document).ready(function(){
-
-  // hide .navbar first
-  if ( $(window).width() > 1000) {      
-
-    $(".navbar").hide();
-
-  // fade in .navbar
-  $(function () {
-    $(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-            if ($(this).scrollTop() > 730) {
-              $('.navbar').fadeIn();
-            } else {
-              $('.navbar').fadeOut();
-            }
-          });
-  });
-}
-
- 
-else {
-  $(".navbar").hide();
-  
-  // fade in .navbar
-  $(function () {
-    $(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-            if ($(this).scrollTop() > 300) {
-              $('.navbar').fadeIn();
-            } else {
-              $('.navbar').fadeOut();
-            }
-          });
-
-
-  });
-}
-});
-  }(jQuery));
-  </script>
+    </main>
+    <footer id="footer">
+        <h2 class="contactHeader">CONTACT US</h2>
+        <hr class="headerline">
+        <div class="contactText">
+            <p style="font-size:130%"> We would love to hear from you.
+                <br/> Email us at <a href="mailto:contact@vitaedev.com" style="text-decoration:underline">contact@vitaedev.com</a> and let us know how we can help build your website. </p>
+        </div>
+    </footer>
+    <script src="js/pace.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/easing.js"></script>
+    <!-- <script src="js/nicescroll.js"></script> -->
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!--ANIMATIONS ON SCROLL -->
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+    <script>
+        $(function () {
+            $('.scrollto, .gototop').bind('click', function (event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000, 'easeOutExpo');
+                event.preventDefault();
+            });
+        });
+        $('body').scrollspy({
+            target: '#navbar'
+        })
+        $('[data-spy="scroll"]').each(function () {
+            var $spy = $(this).scrollspy('refresh')
+            $("#navbar a").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 600, function () {
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+        (function ($) {
+            $(document).ready(function () {
+                // hide .navbar first
+                if ($(window).width() > 1000) {
+                    $(".navbar").hide();
+                    // fade in .navbar
+                    $(function () {
+                        $(window).scroll(function () {
+                            // set distance user needs to scroll before we fadeIn navbar
+                            if ($(this).scrollTop() > 730) {
+                                $('.navbar').fadeIn();
+                            }
+                            else {
+                                $('.navbar').fadeOut();
+                            }
+                        });
+                    });
+                }
+                else {
+                    $(".navbar").hide();
+                    // fade in .navbar
+                    $(function () {
+                        $(window).scroll(function () {
+                            // set distance user needs to scroll before we fadeIn navbar
+                            if ($(this).scrollTop() > 300) {
+                                $('.navbar').fadeIn();
+                            }
+                            else {
+                                $('.navbar').fadeOut();
+                            }
+                        });
+                    });
+                }
+            });
+        }(jQuery));
+    </script>
 </body>
+
 </html>
