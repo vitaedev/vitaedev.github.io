@@ -349,7 +349,7 @@ footer {
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
     /*background-color: #6883cc;*/
-    /*background-image:url("../images/mouse5.jpg");*/
+    background-image:url("../images/mouse5.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -383,6 +383,10 @@ footer {
     .breath {
         margin: 10px auto;
     }
+    .thumbnail{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -410,9 +414,11 @@ footer {
         margin-right: 100px !important;
     }
     .thumbnail{
-            margin-top: 60px;
-
+            margin-top: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -425,6 +431,8 @@ footer {
     }
     .thumbnail{
         margin-top: 0px; 
+        padding-left: 150px;
+        padding-right: 150px;
     }
 /*
     .navbar .navbar-right {
@@ -459,7 +467,6 @@ footer {
 
 .thumbnail {
     margin-bottom: 0px;
-    padding: 30px;
     border: none !important;
 }
 
@@ -564,23 +571,29 @@ footer {
 .contactHeader {
     text-align: center;
     color: #293133;
+    /*color: white;*/
 }
 
 .headerline {
     border-width: 1px;
     border-color: #293133;
-    width: 40%;
+    
+/*    border-color: white;
+*/    width: 40%;
     padding: 0px;
 }
 
 .contact {
     text-align: center;
     color: #768286;
-}
+
+/*    color: white;
+*/}
 
 .contactText {
     width: 70%;
     margin: 0 auto;
+    text-align: center;
 }
 
 
