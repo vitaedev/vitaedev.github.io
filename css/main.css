@@ -358,8 +358,19 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 }
-
-
+footer p{
+    color: whitesmoke;
+}
+footer a{
+    color: white; 
+}
+#facebook{
+    border-radius: 50%; 
+}
+.imageLink{
+   
+    border: 1px; 
+}
 /*==========9. CUSTOM MEDIA QUERIES==============*/
 
 
@@ -431,8 +442,8 @@ footer {
     }
     .thumbnail{
         margin-top: 0px; 
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 /*
     .navbar .navbar-right {
