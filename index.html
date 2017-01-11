@@ -303,7 +303,7 @@
             $.ajax({
                 url: "https://formspree.io/contact@vitaedev.com", 
                 method: "POST",
-                data: $(".contact-form").serializeObject(),
+                data: $("#contact-form").serializeObject(),
                 dataType: "json"
             });
             alert('Thanks for the email, we\'ll be in touch promptly.');
