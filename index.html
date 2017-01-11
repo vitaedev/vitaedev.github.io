@@ -267,11 +267,11 @@
         }(jQuery));
 
         $("#sendMessage").on("click", function() {
-            message = $("#contact-form").serialize();
+            // message = $("#contact-form").serialize();
             $.ajax({
                 url: "https://formspree.io/contact@vitaedev.com", 
                 method: "POST",
-                data: {message: message},
+                data: {message: "wat"},
                 dataType: "json"
             });
             alert('Thanks for the email, we\'ll be in touch promptly.');
