@@ -264,24 +264,24 @@
                     });
                 }
             });
-        }(jQuery));
 
-        $.fn.serializeObject = function()
-        {
-            var o = {};
-            var a = this.serializeArray();
-            $.each(a, function() {
-                if (o[this.name] !== undefined) {
-                    if (!o[this.name].push) {
-                        o[this.name] = [o[this.name]];
+            $.fn.serializeObject = function()
+            {
+                var o = {};
+                var a = this.serializeArray();
+                $.each(a, function() {
+                    if (o[this.name] !== undefined) {
+                        if (!o[this.name].push) {
+                            o[this.name] = [o[this.name]];
+                        }
+                        o[this.name].push(this.value || '');
+                    } else {
+                        o[this.name] = this.value || '';
                     }
-                    o[this.name].push(this.value || '');
-                } else {
-                    o[this.name] = this.value || '';
-                }
-            });
-            return o;
-        };
+                });
+                return o;
+            };
+        }(jQuery));
 
         function mailVitae() {
             if(!($("#name")[0].checkValidity())){
@@ -293,7 +293,7 @@
               return false;
             }
             if(!($("#subject")[0].checkValidity())){
-              alert('Please input a valid email');
+              alert('Please input a subject');
               return false;
             }
             if(!($("#message")[0].checkValidity())){
