@@ -431,7 +431,7 @@ footer a{
             padding-left: 40px;
             padding-right: 40px;
     }
-    #contact-form{
+    .contact-form{
       max-width:80%;
       margin:auto;
     }
@@ -643,18 +643,18 @@ font-size: 15px;
 color: #3d3d3d; 
 }
 
-#contact-form{
+.contact-form{
 background-color: #f1f1f1;
 padding: 30px;
 }
-#contact-form .form-control{
+.contact-form .form-control{
 border-radius: 0px;
 margin-bottom: 20px;
 background-color:#fff;
 border: 0px solid #fff;
 padding-left: 12px;
 }
-#contact-form #message{
+.contact-form #message{
   height: 126px;
 }
 .form_submit{
