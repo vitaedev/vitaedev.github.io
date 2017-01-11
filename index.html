@@ -174,13 +174,13 @@
         <form class="contact-form" method="POST">
             <div class="row">
                 <div class="col-md-6">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                    <input type="email" class="form-control" id="email" name="_replyto" placeholder="Your Email">
+                    <input type="text" required class="form-control" id="name" name="name" placeholder="Name">
+                    <input type="email" required class="form-control" id="email" name="_replyto" placeholder="Your Email">
                     <input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject">                                
                 </div>
                 <div class="col-md-6">
-                    <textarea class="form-control" id="message" name="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
-                    <button id="sendMessage" class="btn btn-default submit-btn form_submit" style="margin:0">SEND MESSAGE</button>                                
+                    <textarea class="form-control" required id="message" name="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                    <button onclick="return mailVitae()" class="btn btn-default submit-btn form_submit" style="margin:0">SEND MESSAGE</button>                                
                 </div>
             </div>
         </form>
@@ -266,17 +266,29 @@
             });
         }(jQuery));
 
-        $("#sendMessage").on("click", function() {
-            // message = $("#contact-form").serialize();
+        function mailVitae() {
+            if(!($("#name")[0].checkValidity())){
+              alert('Please input your name first');
+              return false;
+            }
+            if(!($("#email")[0].checkValidity())){
+              alert('Please input a valid email');
+              return false;
+            }
+            if(!($("#message")[0].checkValidity())){
+              alert('Please include a message to let us know how to we can help you :)');
+              return false;
+            }
+            message = $("#contact-form").serialize();
             $.ajax({
                 url: "https://formspree.io/contact@vitaedev.com", 
                 method: "POST",
-                data: {message: "wat"},
+                data: {message: message},
                 dataType: "json"
             });
             alert('Thanks for the email, we\'ll be in touch promptly.');
             return false;
-        });
+        };
 
     </script>
 </body>
