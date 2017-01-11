@@ -171,12 +171,12 @@
         </div> -->
 
     <!-- <div class="container"> -->
-        <form class="contact-form" method="POST">
+        <form id="contact-form" method="POST">
             <div class="row">
                 <div class="col-md-6">
                     <input type="text" required class="form-control" id="name" name="name" placeholder="Name">
                     <input type="email" required class="form-control" id="email" name="_replyto" placeholder="Your Email">
-                    <input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject">                                
+                    <input type="text" required class="form-control" id="subject" name="_subject" placeholder="Subject">                                
                 </div>
                 <div class="col-md-6">
                     <textarea class="form-control" required id="message" name="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
@@ -275,15 +275,18 @@
               alert('Please input a valid email');
               return false;
             }
+            if(!($("#subject")[0].checkValidity())){
+              alert('Please input a valid email');
+              return false;
+            }
             if(!($("#message")[0].checkValidity())){
               alert('Please include a message to let us know how to we can help you :)');
               return false;
             }
-            message = $("#contact-form").serialize();
             $.ajax({
                 url: "https://formspree.io/contact@vitaedev.com", 
                 method: "POST",
-                data: {message: message},
+                data: $(".contact-form").serialize(),
                 dataType: "json"
             });
             alert('Thanks for the email, we\'ll be in touch promptly.');
