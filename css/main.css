@@ -368,8 +368,10 @@ footer a{
     border-radius: 50%; 
 }
 .imageLink{
-   
     border: 1px; 
+}
+.imageLink:hover{
+    opacity:0.6; 
 }
 /*==========9. CUSTOM MEDIA QUERIES==============*/
 
