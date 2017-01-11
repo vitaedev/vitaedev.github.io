@@ -648,7 +648,6 @@ background-color: #f1f1f1;
 padding: 30px;
 }
 .contact-form .form-control{
-height: 43px;
 border-radius: 0px;
 margin-bottom: 20px;
 background-color:#fff;
@@ -656,7 +655,7 @@ border: 0px solid #fff;
 padding-left: 12px;
 }
 .contact-form #message{
-  height: 151px;
+  height: 126px;
 }
 .form_submit{
 width: 100%;
