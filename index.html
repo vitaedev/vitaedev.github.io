@@ -269,7 +269,7 @@
         $("#sendMessage").on("click", function() {
             message = $("#contact-form").serialize();
             $.ajax({
-                url: "//formspree.io/contact@vitaedev.com", 
+                url: "https://formspree.io/contact@vitaedev.com", 
                 method: "POST",
                 data: {message: message},
                 dataType: "json"
