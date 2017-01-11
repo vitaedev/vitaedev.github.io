@@ -431,7 +431,10 @@ footer a{
             padding-left: 40px;
             padding-right: 40px;
     }
-
+    .contact-form{
+      max-width:80%;
+      margin:auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -614,6 +617,68 @@ footer a{
     margin: 0 auto;
     text-align: center;
 }
+
+
+
+/*Contact*/
+
+.contact-box{
+  background-image: url("../images/contact-logo.png");
+    background-repeat: no-repeat;
+    background-position: 65%;
+    background-size: 10em;
+}
+.single_contact_info{
+padding-bottom: 21px; 
+}
+.single_contact_info h2{
+text-transform: uppercase;
+color: #3d3d3d;
+font-size: 18px;
+letter-spacing: 3px;
+margin-bottom: 1px; 
+}
+.single_contact_info p{
+font-size: 15px;
+color: #3d3d3d; 
+}
+
+.contact-form{
+background-color: #f1f1f1;
+padding: 30px;
+}
+.contact-form .form-control{
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+background-color:#fff;
+border: 0px solid #fff;
+padding-left: 12px;
+}
+.contact-form #message{
+  height: 151px;
+}
+.form_submit{
+width: 100%;
+background: #f73b56;
+border-radius: 0px;
+color: #fff;
+padding-top: 13px;
+padding-bottom: 10px;
+transition: all 1s; 
+}
+
+
+.work-with {
+padding-bottom: 60px;
+padding-top: 10px;
+}
+.work-with h3{
+  font-size: 14px;
+  color: #636363;
+  text-transform: uppercase;
+}
+
 
 
 /*----------Navbar stuff----------*/
