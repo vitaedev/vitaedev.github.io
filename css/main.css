@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    background: #FFF;
+    background: #f1f1f1;
     font-weight: 300;
     height: 100%;
     margin: 0;
@@ -484,6 +484,7 @@ footer a{
 .thumbnail {
     margin-bottom: 0px;
     border: none !important;
+    background-color: #f1f1f1 !important; 
 }
 
 .button {
@@ -781,7 +782,7 @@ padding-top: 10px;
 /*------------WORKS------------*/
 
 .pastworks {
-    background-color: #293133;
+    background-color: #0E1C24;
     margin-bottom: 0px !important;
     /*color: #293133;*/
 }
