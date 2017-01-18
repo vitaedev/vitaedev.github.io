@@ -710,6 +710,10 @@ padding-top: 10px;
 
 
 /*----------LEARNINGPAGES----------*/
+.learningDescription{
+    color: #293133;
+    padding-top: 50px;
+}
 .learnMoreButton{
    display: inline-block !important; 
 }
