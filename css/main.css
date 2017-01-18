@@ -721,7 +721,7 @@ padding-top: 10px;
     /*text-align: center;*/
     background-color: #293133 !important;
     min-height: 400px;
-    padding-top: 80px !important;
+    padding-top: 100px !important;
 }
 
 .inner h1 {
@@ -781,6 +781,9 @@ padding-top: 10px;
 .zxcvb
 {
     width: 100%;
+    min-height: 250px;
+    margin-bottom: 0px !important;
+    padding-top: 50px; 
 
 }
 
