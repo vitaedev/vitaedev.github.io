@@ -714,6 +714,9 @@ padding-top: 10px;
     color: #293133;
     padding-top: 50px;
 }
+.learningDescription p{
+    margin-top: 30px;
+}
 .learnMoreButton{
    display: inline-block !important; 
 }
