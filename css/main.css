@@ -799,8 +799,8 @@ padding-top: 10px;
 {
     color:white;
     text-align:center;
-    padding:25px;
-}
+/*    padding:25px;
+*/}
 
 .pastwork
 {
@@ -808,7 +808,15 @@ padding-top: 10px;
     margin-bottom: 0px !important;
     width: 100%;
     height:auto;
+    text-align: center;
 
+}
+.pastWork hr{
+
+
+    border-width: 1px;
+    border-color: white !important;
+    margin-bottom: 30px;
 }
 
 .portfolio
